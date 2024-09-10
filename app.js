@@ -8,7 +8,7 @@ document.getElementById('inventoryForm').addEventListener('submit', async functi
   formData.append('image', document.getElementById('image').files[0]);
 
   // Send the form data to Telegram
-  const telegramBotToken = '7453990262:AAHgstZ-1V0E21hQREcVTHUk34R849BfyUY';  // Replace with your bot token
+  const telegramBotToken = '7453990262:AAHgstZ-1V0E21hQREcVTHUk34R849BfyUY';  // Replaced with your bot token
   const chatId = '@saeed6524'; // Replace with the group/user ID
 
   const url = `https://api.telegram.org/bot${telegramBotToken}/sendPhoto`;
