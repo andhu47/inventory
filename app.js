@@ -8,7 +8,7 @@ document.getElementById('inventoryForm').addEventListener('submit', async functi
   formData.append('image', document.getElementById('image').files[0]);
 
   const telegramBotToken = '5859325188:AAHMGylqJiCYztCnYAJ_gzbDljXMHiDRobQ';
-  const chatId = '@saeed6524'; // test
+  const chatId = 'saeed6524'; // test
 
   const url = `https://api.telegram.org/bot${telegramBotToken}/sendPhoto`;
 
